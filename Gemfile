@@ -3,7 +3,7 @@ source "http://rubygems.org"
 # Specify your gem's dependencies in tmdb-easy.gemspec
 gemspec
 
-gem 'ruby-debug'
+gem 'ruby-debug19'
 gem 'rspec'
 gem 'json'
 
