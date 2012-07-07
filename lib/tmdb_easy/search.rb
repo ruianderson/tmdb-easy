@@ -1,4 +1,4 @@
-module TmdbEasy  
+module TmdbEasy
   class Movie < Base
     def self.search(keyword, lang = "en", response = "json")
       if response == "json"
