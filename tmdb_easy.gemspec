@@ -3,12 +3,12 @@ $:.push File.expand_path("../lib", __FILE__)
 require "tmdb_easy/version"
 
 Gem::Specification.new do |s|
-  s.name        = "tmdb_easy"
+  s.name        = "tmdb-easy"
   s.version     = TmdbEasy::VERSION
   s.date        = %q{2011-11-28}
   s.authors     = ["Bruno Henrique - Garu"]
   s.email       = ["squall.bruno@gmail.com"]
-  s.homepage    = "https://github.com/brunohenrique/tmdb_easy"
+  s.homepage    = "https://github.com/brunohenrique/tmdb-easy"
   s.summary     = %q{TMDB API made easy}
   s.description = %q{Ruby bindings to TMDB API}
 
