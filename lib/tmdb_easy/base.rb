@@ -1,23 +1,18 @@
 module TmdbEasy
-    class Base
-        @@api_key = ""
-        @@api_response = {}
+  class Base
+    @@api_key = ""
+    @@api_response = {}
 
-        def self.api_key
-            @@api_key
-        end
+    def self.api_key
+      @@api_key
+    end
 
-        def self.api_key=(api_key)
-            @@api_key = api_key
-        end
+    def self.api_key=(api_key)
+      @@api_key = api_key
+    end
 
-        def self.url_base
-            'http://api.themoviedb.org/3/'
-        end
-
-
-        def self.api_call
-        end
-
+    def self.base_api_url
+      'http://api.themoviedb.org/3/'
+    end
   end
 end
