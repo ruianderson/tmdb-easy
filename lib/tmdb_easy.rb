@@ -7,7 +7,6 @@ require 'net/http'
 require 'uri'
 require 'json'
 require 'deepopenstruct'
-require 'addressable/uri'
 
 #Load files in the correct order, not in alphabetical natural order. :)
 required_files = ['base.rb',
