@@ -17,5 +17,14 @@ module TmdbEasy
       json_response = JSON(tmdb_response)
       people = DeepOpenStruct.load(json_response).results
     end
+
+    def self.company(keyword)
+      method_request = base_api_url + "search/company?api_key=#{@@api_key}&query=#{keyword}"
+
+      uri = URI.parse(method_request)
+      tmdb_response = Net::HTTP.get_response(uri).body
+      json_response = JSON(tmdb_response)
+      companies = DeepOpenStruct.load(json_response).results
+    end
   end
 end
