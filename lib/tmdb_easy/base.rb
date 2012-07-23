@@ -1,7 +1,6 @@
 module TmdbEasy
   class Base
     @@api_key = ""
-    @@api_response = {}
 
     def self.api_key
       @@api_key
