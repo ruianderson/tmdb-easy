@@ -10,7 +10,7 @@ Gem::Specification.new do |s|
   s.email       = ["squall.bruno@gmail.com"]
   s.homepage    = "https://github.com/brunohenrique/tmdb-easy"
   s.summary     = %q{TMDB API made easy}
-  s.description = %q{Ruby bindings to TMDB API}
+  s.description = %q{Use tmdb API easily}
 
   s.rubyforge_project = %q{tmdb_easy}
 
