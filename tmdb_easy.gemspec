@@ -19,7 +19,7 @@ Gem::Specification.new do |s|
   s.executables   = `git ls-files -- bin/*`.split("\n").map{ |f| File.basename(f) }
   s.require_paths = ["lib"]
 
-  s.add_development_dependency('rake')
-  s.add_development_dependency('json')
-  s.add_development_dependency('deepopenstruct')
+  s.add_development_dependency('rake', '>= 0.9.2.2')
+  s.add_development_dependency('json', '>= 1.7.3')
+  s.add_development_dependency('deepopenstruct', '>= 0.1.2')
 end
