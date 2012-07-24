@@ -5,7 +5,7 @@ require "tmdb_easy/version"
 Gem::Specification.new do |s|
   s.name        = "tmdb-easy"
   s.version     = TmdbEasy::VERSION
-  s.date        = %q{2011-11-28}
+  s.date        = Time.new.strftime("%Y-%m-%d")
   s.authors     = ["Bruno Henrique - Garu"]
   s.email       = ["squall.bruno@gmail.com"]
   s.homepage    = "https://github.com/brunohenrique/tmdb-easy"
