@@ -14,6 +14,6 @@ required_files = ['base.rb',
                   'genre.rb']
 
 required_files.each do |file|
-  require File.expand_path(File.join(File.dirname(__FILE__), 'tmdb_easy', file))
+  require File.expand_path(File.join(File.dirname(__FILE__), 'tmdb-easy', file))
 end
 
