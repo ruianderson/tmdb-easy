@@ -1,6 +1,6 @@
 # -*- encoding: utf-8 -*-
 $:.push File.expand_path("../lib", __FILE__)
-require "tmdb_easy/version"
+require "tmdb-easy/version"
 
 Gem::Specification.new do |s|
   s.name        = "tmdb-easy"
@@ -12,7 +12,7 @@ Gem::Specification.new do |s|
   s.summary     = %q{TMDB API made easy}
   s.description = %q{Use tmdb API easily}
 
-  s.rubyforge_project = %q{tmdb_easy}
+  s.rubyforge_project = %q{tmdb-easy}
 
   s.files         = `git ls-files`.split("\n")
   s.test_files    = `git ls-files -- {test,spec,features}/*`.split("\n")
