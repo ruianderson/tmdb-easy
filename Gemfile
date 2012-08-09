@@ -3,7 +3,7 @@ source "http://rubygems.org"
 gem 'deepopenstruct'
 gem 'json'
 
-group :test do
+group :test, :development do
   gem 'guard'
   gem 'guard-rspec'
   gem 'rspec'
