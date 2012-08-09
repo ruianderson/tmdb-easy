@@ -1,10 +1,11 @@
 source "http://rubygems.org"
 
-
-gem 'json'
 gem 'deepopenstruct'
+gem 'json'
 
-gem 'ruby-debug19'
-gem 'rspec'
-gem 'guard'
-gem 'guard-rspec'
+group :test do
+  gem 'guard'
+  gem 'guard-rspec'
+  gem 'rspec'
+  gem 'ruby-debug19'
+end
