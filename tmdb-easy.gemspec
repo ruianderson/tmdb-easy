@@ -1,4 +1,5 @@
-# -*- encoding: utf-8 -*-
+# encoding: utf-8
+
 $:.push File.expand_path("../lib", __FILE__)
 require "tmdb-easy/version"
 
@@ -22,6 +23,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency('rspec', '>= 2.11.0')
   s.add_development_dependency('guard', '>= 1.2.3')
   s.add_development_dependency('guard-rspec', '>= 1.2.0')
+  s.add_development_dependency('ruby-debug19')
 
   s.add_runtime_dependency('rake', '>= 0.9.2.2')
   s.add_runtime_dependency('json', '>= 1.7.3')
