@@ -1,8 +1,4 @@
-source "http://rubygems.org"
+source 'https://rubygems.org'
 
-gem 'deepopenstruct'
-gem 'guard'
-gem 'guard-rspec'
-gem 'json'
-gem 'rspec'
-gem 'ruby-debug19'
+# Specify your gem's dependencies in tmdb_easy.gemspec
+gemspec
